@@ -1,13 +1,37 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3e8e092 (New Files)
 @font-face { font-family: Norwester; src: url('assets/norwester.otf');}
 
 #title-name{
     font-family: Norwester;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .email-input{
         width: 50%;
     }
 }
 
+=======
+body::before{
+    display:block;
+    content: '';
+    height: 60px;
+}
+
+.navbar-nav, #cert{
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: #DDD0C8;
+}
+
+#instructors{
+    background-color: #323232;
+}
+>>>>>>> 3e8e092 (New Files)
