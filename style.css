@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 3e8e092 (New Files)
 @font-face { font-family: Norwester; src: url('assets/norwester.otf');}
 
 
@@ -9,14 +6,12 @@
     font-family: Norwester;
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
     .email-input{
         width: 50%;
     }
 }
 
-=======
 body::before{
     display:block;
     content: '';
@@ -35,4 +30,3 @@ body{
 #instructors{
     background-color: #323232;
 }
->>>>>>> 3e8e092 (New Files)
