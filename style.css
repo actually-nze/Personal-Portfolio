@@ -1,27 +1,17 @@
 
 @font-face { font-family: Norwester; src: url('assets/norwester.otf');}
+@font-face { font-family: Nasal; src: url('assets/Nasal.otf');}
+@font-face { font-family: Zero; font-weight: bold; src: url('assets/Lambda-Regular.ttf');}
+@font-face { font-family: Jenking; font-weight: bold; src: url('assets/Jenking.otf');}
 
+#name{
+    font-family: Nasal;
+}
 
 #title-name{
     font-family: Norwester;
 }
 
-@media (min-width: 768px) {
-    .email-input{
-        width: 50%;
-    }
-}
-
-body::before{
-    display:block;
-    content: '';
-    height: 60px;
-}
-
-.navbar-nav, #cert{
-    font-family: Bahnschrift;
-    text-transform: uppercase;
-}
 
 body{
     background-color: #DDD0C8;
@@ -30,3 +20,15 @@ body{
 #instructors{
     background-color: #323232;
 }
+
+#navmenu{
+    text-transform: uppercase;
+    font-family: Zero;
+    font-size: 20px;
+
+}
+
+#desc{
+    font-family: Jenking;
+}
+
